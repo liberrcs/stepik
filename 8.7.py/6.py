@@ -1,0 +1,5 @@
+set1=set(int(i) for i in input().split())
+set2=set(int(i) for i in input().split())
+set3=set(int(i) for i in input().split())
+big_set=set(range(11))
+print(*sorted(big_set-set1-set2-set3))
